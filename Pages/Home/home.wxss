@@ -1,0 +1,27 @@
+/* Pages/Home/home.wxss */
+.title{
+  color: red;
+}
+
+.container1{
+  background-color: purple;
+  white-space: nowrap;
+}
+
+.item1{
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+display: inline-block;
+}
+
+.input{
+  border: 2rpx solid blue;
+  margin: 10rpx;
+}
+
+.input::after{
+  border: 2rpx solid red;
+  margin: 10rpx;
+}

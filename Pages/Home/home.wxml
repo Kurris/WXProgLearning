@@ -1,0 +1,28 @@
+<view>
+<text>当前用户:</text>
+<input id="user" value="{{uname}}" type="text" class="input" placeholder="请输入你的ID" bindblur="UserblurVal"></input>
+</view>
+<view>
+<text>当前用户密码:</text>
+<input id="user" value="{{udd}}" password class="input" placeholder="请输入你的密码" confirm-type="done" bindblur="pwdblurVal"></input>
+</view>
+<block>
+<button size="mini" bind:tap="ClearInput">清空</button>
+<button size="mini" bind:tap="Login">登录</button>
+</block>
+
+
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="getUserInfos">获取用户信息</button>
+<button size="mini" bindtap="postTest">请求</button>
+<button size="mini" bindtap="toast">toast</button>
+
+<button size="mini" bindtap="choose">照片</button> 
+<scroll-view scroll-x class="container1">
+<view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+
+
+<block wx:for="{{2}}">
+<view>2</view>
+<video src="https://www.bilibili.com/video/av86119187" />
+</block>

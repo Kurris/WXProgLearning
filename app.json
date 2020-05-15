@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "Pages/Home/home",
+    "Pages/About/about"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff325",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序初体验",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#FF5777",
+    "list": [
+      {
+        "pagePath": "Pages/Home/home",
+        "text": "首页",
+        "iconPath": "Resource/Icon/TaBbar/home.jpg",
+        "selectedIconPath": "Resource/Icon/TaBbar/home_active.png"
+      },
+      {
+        "pagePath": "Pages/About/about",
+        "text": "text",
+        "iconPath": "Resource/Icon/TaBbar/home.jpg",
+        "selectedIconPath": "Resource/Icon/TaBbar/home_active.png"
+      }
+    ]
+    ,
+    "backgroundColor":"#fff325"
+  },
+  "sitemapLocation": "sitemap18.json"
+}
